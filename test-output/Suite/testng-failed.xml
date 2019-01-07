@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="seleniumdemo.BatchFileOne$SkipTestCase">
+        <methods>
+          <include name="testthree"/>
+          <include name="testtwo"/>
+        </methods>
+      </class> <!-- seleniumdemo.BatchFileOne$SkipTestCase -->
+      <class name="seleniumdemo.SkipTestCase">
+        <methods>
+          <include name="testtwo"/>
+          <include name="testthree"/>
+        </methods>
+      </class> <!-- seleniumdemo.SkipTestCase -->
+      <class name="seleniumdemo.BatchFileThree$SkipTestCase">
+        <methods>
+          <include name="testtwo"/>
+        </methods>
+      </class> <!-- seleniumdemo.BatchFileThree$SkipTestCase -->
+      <class name="seleniumdemo.BatchFileTwo">
+        <methods>
+          <include name="method2"/>
+          <include name="method1"/>
+        </methods>
+      </class> <!-- seleniumdemo.BatchFileTwo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num attn">5</td><td class="num attn">2</td><td class="num">13,184</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">seleniumdemo.BatchFileTwo</td><td><a href="#m0">method1</a></td><td rowspan="1">1545292323343</td><td rowspan="1">11</td></tr><tr class="failedeven"><td><a href="#m1">method2</a></td><td rowspan="1">1545292323365</td><td rowspan="1">5</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">seleniumdemo.BatchFileOne$SkipTestCase</td><td><a href="#m2">testthree</a></td><td rowspan="1">1545292323409</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">testtwo</a></td><td rowspan="1">1545292323389</td><td rowspan="1">5</td></tr><tr class="skippedodd"><td rowspan="1">seleniumdemo.BatchFileThree$SkipTestCase</td><td><a href="#m4">testtwo</a></td><td rowspan="1">1545292323339</td><td rowspan="1">4</td></tr><tr class="skippedeven"><td rowspan="2">seleniumdemo.SkipTestCase</td><td><a href="#m5">testthree</a></td><td rowspan="1">1545292323418</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">testtwo</a></td><td rowspan="1">1545292323399</td><td rowspan="1">2</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">seleniumdemo.AnnotationFacebook</td><td><a href="#m7">logincheck</a></td><td rowspan="1">1545292323423</td><td rowspan="1">476</td></tr><tr class="passedodd"><td rowspan="1">seleniumdemo.BatchFileOne$SkipTestCase</td><td><a href="#m8">testone</a></td><td rowspan="1">1545292323382</td><td rowspan="1">1</td></tr><tr class="passedeven"><td rowspan="2">seleniumdemo.BatchFileThree$SkipTestCase</td><td><a href="#m9">testfour</a></td><td rowspan="1">1545292323319</td><td rowspan="1">8</td></tr><tr class="passedeven"><td><a href="#m10">testone</a></td><td rowspan="1">1545292323335</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="1">seleniumdemo.BatchFileTwo</td><td><a href="#m11">method3</a></td><td rowspan="1">1545292323375</td><td rowspan="1">5</td></tr><tr class="passedeven"><td rowspan="2">seleniumdemo.SkipTestCase</td><td><a href="#m12">testfour</a></td><td rowspan="1">1545292323404</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m13">testone</a></td><td rowspan="1">1545292323408</td><td rowspan="1">1</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">seleniumdemo.BatchFileTwo#method1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Abhay] but found [veena]
+	at seleniumdemo.BatchFileTwo.method1(BatchFileTwo.java:18)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">seleniumdemo.BatchFileTwo#method2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Abhay] but found [veena]
+	at seleniumdemo.BatchFileTwo.method2(BatchFileTwo.java:28)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">seleniumdemo.BatchFileOne$SkipTestCase#testthree</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method BatchFileOne$SkipTestCase.testthree()[pri:0, instance:seleniumdemo.BatchFileOne$SkipTestCase@8bd1b6a] depends on not successfully finished methods
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">seleniumdemo.BatchFileOne$SkipTestCase#testtwo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: message
+	at seleniumdemo.BatchFileOne$SkipTestCase.testtwo(BatchFileOne.java:18)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">seleniumdemo.BatchFileThree$SkipTestCase#testtwo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: message
+	at seleniumdemo.BatchFileThree$SkipTestCase.testtwo(BatchFileThree.java:18)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">seleniumdemo.SkipTestCase#testthree</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SkipTestCase.testthree()[pri:0, instance:seleniumdemo.SkipTestCase@c038203] depends on not successfully finished methods
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">seleniumdemo.SkipTestCase#testtwo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: message
+	at seleniumdemo.SkipTestCase.testtwo(SkipTestCase.java:17)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">seleniumdemo.AnnotationFacebook#logincheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">seleniumdemo.BatchFileOne$SkipTestCase#testone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">seleniumdemo.BatchFileThree$SkipTestCase#testfour</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">seleniumdemo.BatchFileThree$SkipTestCase#testone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">seleniumdemo.BatchFileTwo#method3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">seleniumdemo.SkipTestCase#testfour</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">seleniumdemo.SkipTestCase#testone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
