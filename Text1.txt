@@ -1,0 +1,28 @@
+ Volume in drive C is Windows
+ Volume Serial Number is D0E0-53FE
+
+ Directory of C:\Users\lenovo
+
+01/07/2019  12:14 PM    <DIR>          .
+01/07/2019  12:14 PM    <DIR>          ..
+12/10/2018  10:49 AM    <DIR>          .eclipse
+01/07/2019  12:06 PM    <DIR>          .p2
+12/10/2018  10:31 AM    <DIR>          .tooling
+12/11/2018  09:28 AM    <DIR>          3D Objects
+12/11/2018  09:28 AM    <DIR>          Contacts
+12/11/2018  09:28 AM    <DIR>          Desktop
+12/11/2018  09:28 AM    <DIR>          Documents
+01/07/2019  11:58 AM    <DIR>          Downloads
+12/10/2018  10:25 AM    <DIR>          eclipse
+12/10/2018  11:17 AM    <DIR>          eclipse-workspace
+12/11/2018  09:28 AM    <DIR>          Favorites
+12/11/2018  09:28 AM    <DIR>          Links
+12/11/2018  09:28 AM    <DIR>          Music
+12/18/2018  11:58 AM    <DIR>          OneDrive
+12/11/2018  09:28 AM    <DIR>          Pictures
+12/11/2018  09:28 AM    <DIR>          Saved Games
+12/11/2018  09:28 AM    <DIR>          Searches
+01/07/2019  12:14 PM                 0 Text1.txt
+12/11/2018  09:28 AM    <DIR>          Videos
+               1 File(s)              0 bytes
+              20 Dir(s)  927,657,623,552 bytes free
